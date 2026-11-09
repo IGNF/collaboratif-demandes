@@ -8,6 +8,6 @@ assignees: ''
 ---
 
 Outil :
-- [] Plug-in QGIS espace co
-- [] Guichet web (cartes.gouv.fr)
+- [ ] Plug-in QGIS espace co
+- [ ] Guichet web (cartes.gouv.fr)
 Urgence :
