@@ -1,3 +1,106 @@
 name: Demande complète
-about: Signaler un bug, proposer une amélioration ou transmettre une demande
- title: ""
+description: Signaler un bug, proposer une amélioration ou transmettre une demande
+title: "[DEMANDE] "
+labels:
+  - "question"
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de fournir les informations ci-dessous afin de faciliter le traitement de votre demande.
+
+  - type: dropdown
+    id: type-demande
+    attributes:
+      label: Type de demande
+      description: Choisissez la catégorie qui correspond le mieux.
+      options:
+        - Bug
+        - Amélioration
+        - Nouvelle fonctionnalité
+        - Question ou aide
+        - Autre
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: outil-concerne
+    attributes:
+      label: Outil concerné
+      description: Cochez tous les outils concernés.
+      options:
+        - label: Plug-in QGIS espace co
+        - label: Guichet web (cartes.gouv.fr)
+        - label: Autre ou plusieurs outils
+
+  - type: input
+    id: resume
+    attributes:
+      label: Résumé
+      description: Décrivez brièvement votre demande.
+      placeholder: "Ex. : Impossible d’enregistrer une carte"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description détaillée
+      description: Décrivez le problème ou le besoin.
+      placeholder: Indiquez le contexte et les détails utiles.
+      render: text
+    validations:
+      required: true
+
+  - type: dropdown
+    id: urgence
+    attributes:
+      label: Urgence
+      options:
+        - Faible
+        - Normale
+        - Élevée
+        - Bloquante
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Étapes pour reproduire (pour un bug)
+      description: Décrivez les étapes à suivre pour reproduire le problème.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+      render: text
+
+  - type: textarea
+    id: resultat-attendu
+    attributes:
+      label: Résultat attendu
+      description: Que devriez-vous obtenir ou pouvoir faire ?
+      render: text
+
+  - type: textarea
+    id: resultat-observe
+    attributes:
+      label: Résultat observé
+      description: Que se passe-t-il actuellement ?
+      render: text
+
+  - type: input
+    id: environnement
+    attributes:
+      label: Environnement
+      description: Précisez votre navigateur, système, version de QGIS ou autre information pertinente.
+      placeholder: "Ex. : Firefox 130, Windows 11, QGIS 3.x"
+
+  - type: textarea
+    id: complements
+    attributes:
+      label: Informations complémentaires
+      description: Ajoutez des liens ou toute autre information utile.
+      render: text
