@@ -1,0 +1,46 @@
+name: Demande d'amélioration
+description: Transmettre une demande d'amélioration
+assignees: [davidcallign, fvoterro, PierreDanre, thibaud-tac]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+      
+        Point d'entrée pour toute demande d'amélioration des outils collaboratifs.
+        
+        Les demandes de configuration de base de données espace-collaboratif sont à faire via Amélio. 
+        De même pour les demandes de droits des utilisateurs. 
+
+        Veuillez, si possible, indiquer le numéro du guichet plutôt que le nom du guichet.
+        
+  - type: checkboxes
+    id: outil-concerne
+    attributes:
+      label: Outils concernés
+      description: Cochez tous les outils concernés.
+      options:
+        - label: Plug-in QGIS espace co
+        - label: Guichet web (cartes.gouv.fr)
+        - label: Autre ou plusieurs outils
+
+  - type: textarea
+      id: description
+      attributes:
+          label: Decrire l'amélioratoin souhaitée
+          description: |
+              Ajoutez si possible des copies d'écran pour contextualiser.
+      validations:
+          required: true
+          
+  - type: dropdown
+    id: bloquant
+    attributes:
+      label: Bloquant
+      options:
+        - Non Bloquant
+        - Légèrement Bloquant
+        - Bloquant
+        - Très Bloquant
+    validations:
+      required: true
