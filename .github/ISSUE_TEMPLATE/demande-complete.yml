@@ -1,7 +1,5 @@
 name: Demande complète
 description: Transmettre une demande
-title: ""
-labels:
 assignees: [davidcallign, fvoterro, PierreDanre, thibaud-tac]
 
 body:
