@@ -1,15 +1,16 @@
 name: Demande complète
-description: Signaler un bug, proposer une amélioration ou transmettre une demande
-title: "[DEMANDE] "
+description: Transmettre une demande
+title: ""
 labels:
-  - "question"
-assignees: []
+assignees: [davidcallign, fvoterro, PierreDanre, thibaud-tac]
 
 body:
   - type: markdown
     attributes:
       value: |
-        Merci de fournir les informations ci-dessous afin de faciliter le traitement de votre demande.
+        Point d'entrée pour toute demande d'amélioration des outils collaboratifs et remontées de bugs.
+        Les demandes de configuration de base de données espace-collaboratif sont à faire via Amélio. 
+        De même pour les demandes de droits des utilisateurs. 
 
   - type: dropdown
     id: type-demande
@@ -28,7 +29,7 @@ body:
   - type: checkboxes
     id: outil-concerne
     attributes:
-      label: Outil concerné
+      label: OutilS concernés
       description: Cochez tous les outils concernés.
       options:
         - label: Plug-in QGIS espace co
