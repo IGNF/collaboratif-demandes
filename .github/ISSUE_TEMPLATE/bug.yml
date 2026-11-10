@@ -3,6 +3,8 @@ description: Faire remonter un bug
 assignees: [davidcallign, fvoterro, PierreDanre, thibaud-tac]
 
 body:
+
+
   - type: markdown
     attributes:
       value: |
@@ -13,6 +15,7 @@ body:
         De même pour les demandes de droits des utilisateurs. 
 
         Veuillez, si possible, indiquer le numéro du guichet plutôt que le nom du guichet.
+
         
   - type: checkboxes
     id: outil-concerne
@@ -23,6 +26,7 @@ body:
         - label: Plug-in QGIS espace co
         - label: Guichet web (cartes.gouv.fr)
         - label: Autre ou plusieurs outils
+
 
   - type: textarea
       id: description
@@ -67,3 +71,5 @@ body:
         - Très Bloquant
     validations:
       required: true
+
+
