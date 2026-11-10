@@ -28,6 +28,17 @@ body:
         - label: Guichet web (cartes.gouv.fr)
         - label: Autre ou plusieurs outils
 
+  - type: dropdown
+    id: bloquant
+    attributes:
+      label: Bloquant
+      options:
+        - Non Bloquant
+        - Légèrement Bloquant
+        - Bloquant
+        - Très Bloquant
+    validations:
+      required: true
 
   - type: textarea
     id: description
@@ -60,17 +71,5 @@ body:
             Ajoutez des copies d'écran si nécessaire.
     validations:
         required: false
-
-  - type: dropdown
-    id: bloquant
-    attributes:
-      label: Bloquant
-      options:
-        - Non Bloquant
-        - Légèrement Bloquant
-        - Bloquant
-        - Très Bloquant
-    validations:
-      required: true
 
 
