@@ -25,13 +25,13 @@ body:
         - label: Autre ou plusieurs outils
 
   - type: textarea
-      id: description
-      attributes:
-          label: Decrire l'amélioratoin souhaitée
-          description: |
-              Ajoutez si possible des copies d'écran pour contextualiser.
-      validations:
-          required: true
+    id: description
+    attributes:
+        label: Decrire l'amélioratoin souhaitée
+        description: |
+            Ajoutez si possible des copies d'écran pour contextualiser.
+    validations:
+        required: true
           
   - type: dropdown
     id: bloquant
