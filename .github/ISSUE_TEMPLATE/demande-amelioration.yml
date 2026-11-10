@@ -6,13 +6,14 @@ body:
   - type: markdown
     attributes:
       value: |
-      
+         
         Point d'entrée pour toute demande d'amélioration des outils collaboratifs.
         
         Les demandes de configuration de base de données espace-collaboratif sont à faire via Amélio. 
         De même pour les demandes de droits des utilisateurs. 
 
         Veuillez, si possible, indiquer le numéro du guichet plutôt que le nom du guichet.
+         
         
   - type: checkboxes
     id: outil-concerne
