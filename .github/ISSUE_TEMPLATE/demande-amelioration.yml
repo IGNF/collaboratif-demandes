@@ -24,8 +24,8 @@ body:
         - label: Plug-in QGIS espace co
         - label: Guichet web (cartes.gouv.fr)
         - label: EspaceCo mobile
-        - label: Autre plug-in qgis
-        - label: Autre
+        - label: Autre plug-in qgis (indiquer l'outil dans l'onglet description)
+        - label: Autre (indiquer l'outil dans l'onglet description)
 
   - type: dropdown
     id: bloquant
