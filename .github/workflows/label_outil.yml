@@ -20,8 +20,8 @@ jobs:
             )?.[1] || "";
 
             const labelParOutil = {
-              "Plug-in QGIS espace co": "EspaceCo qgis",
-              "Guichet web (cartes.gouv.fr)": "Guichet cartes.gouv",
+              "Plug-in QGIS espace co": "espaceco qgis",
+              "Guichet web (cartes.gouv.fr)": "guichet cartes.gouv",
               "Autre ou plusieurs outils": "question"
             };
 
