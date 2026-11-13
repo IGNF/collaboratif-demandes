@@ -28,6 +28,7 @@ body:
         - label: Guichet web (cartes.gouv.fr)
         - label: EspaceCo mobile
         - label: Autre plug-in qgis
+        - label: Autre
 
   - type: dropdown
     id: bloquant
