@@ -16,7 +16,7 @@ jobs:
           script: |
             const body = context.payload.issue.body || "";
             const section = body.match(
-              /(?:^|\n)### Outil concerné\s*\n([\s\S]*?)(?=\n### |$)/i
+              /(?:^|\n)### Outils concernés\s*\n([\s\S]*?)(?=\n### |$)/i
             )?.[1] || "";
 
             const labelParOutil = {
