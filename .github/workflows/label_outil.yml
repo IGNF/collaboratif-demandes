@@ -22,7 +22,9 @@ jobs:
             const labelParOutil = {
               "Plug-in QGIS espace co": "espaceco qgis",
               "Guichet web (cartes.gouv.fr)": "guichet cartes.gouv",
-              "Autre ou plusieurs outils": "question"
+              "EspaceCo mobile": "espaceco mobile",
+              "Autre plug-in qgis (indiquer l'outil dans l'onglet description)": "plugin qgis",
+              "Autre (indiquer l'outil dans l'onglet description)": "autre outil"
             };
 
             const labels = [...section.matchAll(/^\s*-\s*\[x\]\s*(.+?)\s*$/gim)]
