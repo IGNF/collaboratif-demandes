@@ -20,11 +20,11 @@ jobs:
             )?.[1] || "";
 
             const labelParOutil = {
-              "Plug-in QGIS espace co": "espaceco qgis",
-              "Guichet web (cartes.gouv.fr)": "guichet cartes.gouv",
-              "EspaceCo mobile": "espaceco mobile",
-              "Autre plug-in qgis (indiquer l'outil dans l'onglet description)": "plugin qgis",
-              "Autre (indiquer l'outil dans l'onglet description)": "autre outil"
+              "Plug-in QGIS espace co": "espaceco_qgis",
+              "Guichet web (cartes.gouv.fr)": "guichet_cartes.gouv",
+              "EspaceCo mobile": "espaceco_mobile",
+              "Autre plug-in qgis (indiquer l'outil dans l'onglet description)": "plugin_qgis",
+              "Autre (indiquer l'outil dans l'onglet description)": "autre_outil"
             };
 
             const labels = [...section.matchAll(/^\s*-\s*\[x\]\s*(.+?)\s*$/gim)]
