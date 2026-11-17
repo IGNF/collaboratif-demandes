@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Amelio
+  - name: Amelio, catégorie espace collaboratif-processus
     url: https://amelio.ign.fr/front/tracking.injector.php
-    about: Pour toute demande de configuration de base de données espace-collaboratif ou de droits des utilisateurs.
+    about: Pour toute demande de création de guichet, de configuration de base de données espace-collaboratif ou demande de droits utilisateurs.
